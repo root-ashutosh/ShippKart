@@ -7,7 +7,8 @@ This is a full-stack e-commerce website built with:
 - **Database**: MongoDB
 - **Payments**: Stripe
 
----
+---![Screenshot 2025-06-20 005423](https://github.com/user-attachments/assets/bb7fc164-ad35-4fca-8d81-5e7987f240e4)
+
 
 ##  Features
 
