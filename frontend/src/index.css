@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Prata&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* for underline in navlink menu-- display only when active */
+a.active hr{  
+    display: block;
+}
+*{
+    font-family: Outfit;
+}
+.prata-regular {
+  font-family: "Prata", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* for small screen to show which menu button is active */
+@media (max-width:640px) {
+  a.active{
+    background-color: black;
+    color: white;
+  }
+
+}
+
+/* to hide the scrollbar on products page */
+::-webkit-scrollbar{
+  display: none;
+}
